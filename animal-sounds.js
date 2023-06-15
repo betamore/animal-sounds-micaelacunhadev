@@ -1,16 +1,16 @@
 // Write a function called cowSounds that prints "Cows go MOOOO!"
 function cowSounds(){
-    print("Cows go MOOOO!")
+    console.log("Cows go MOOOO!")
 }
 
 // Write a function called dogSounds that prints "Dogs go WOOOF!"
 function dogSounds(){
-    print("Dogs go WOOOF!")
+    console.log("Dogs go WOOOF!")
 }
 
 // Write a function called duckSounds that prints "Ducks go QUACK!"
 function duckSounds(){
-    print("Ducks go QUACK!")
+    console.log("Ducks go QUACK!")
 }
 
 // Write a function called whatSound that accepts a single paramete. If that parameter id Cow it should run the cowSounds function.
@@ -21,7 +21,7 @@ function whatSound( animal ){
     if ( animal === "Cow" ) cowSounds()
     else if ( animal === "Dog" ) dogSounds()
     else if ( animal === "Duck" ) duckSounds()
-    else print("I am not sure what noise that animal makes")
+    else console.log("I am not sure what noise that animal makes")
 }
 
 
